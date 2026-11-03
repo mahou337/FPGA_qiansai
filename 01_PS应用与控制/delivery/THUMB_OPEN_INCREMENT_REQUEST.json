@@ -1,0 +1,20 @@
+{
+  "schema": "user-requested-thumb-open-offset-v1",
+  "source": "User confirmed both thumb servos extend approx20 degrees from current open endpoints",
+  "base_open_raw": {
+    "7": 440,
+    "8": 582
+  },
+  "delta_raw": {
+    "7": 68,
+    "8": -68
+  },
+  "result_open_raw": {
+    "7": 508,
+    "8": 514
+  },
+  "degrees_per_servo": 20,
+  "quantized_degrees_per_servo": 19.921875,
+  "derived_not_newly_measured": true,
+  "physical_loaded_motion_verified": false
+}

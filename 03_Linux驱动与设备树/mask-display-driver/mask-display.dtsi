@@ -1,0 +1,14 @@
+/* Merge into existing system-user.dtsi, retaining ALL camera/UART nodes.
+ * Verify amba_pl, clkc labels and 1-cell addressing in the generated 2019.1 DT.
+ * If generated DT already has this address, amend that node; do NOT duplicate it.
+ * Load matching FPGA image before this node probes. No live reconfiguration.
+ */
+&amba_pl {
+ mask_display@43c00000 {
+  compatible = "hellofpga,mask-display-1.0";
+  reg = <0x43c00000 0x00080000>;
+  clocks = <&clkc 15>;
+  clock-names = "s_axi_aclk";
+  status = "okay";
+ };
+};

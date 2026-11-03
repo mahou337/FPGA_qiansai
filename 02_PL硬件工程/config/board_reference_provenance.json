@@ -1,0 +1,317 @@
+{
+  "source_files": {
+    "network": {
+      "path": "10_PS_EMIO_NET_TEST\\NET_TEST\\NET_TEST.srcs\\sources_1\\bd\\ZYNQ\\ip\\ZYNQ_processing_system7_0_0\\ZYNQ_processing_system7_0_0.xci",
+      "sha256": "9c94af5d90c461f9cd8473215029407fee557843a5928d23c598b51d574c4522"
+    },
+    "bram": {
+      "path": "15_PS_BRAM_TEST\\PS_BRAM_TEST\\PS_BRAM_TEST.srcs\\sources_1\\bd\\ZYNQ_CORE\\ip\\ZYNQ_CORE_processing_system7_0_0\\ZYNQ_CORE_processing_system7_0_0.xci",
+      "sha256": "af325cff96fc15f9b5e685c157c945e4915b831ad38495d1142cc903949ab8b2"
+    }
+  },
+  "selected_reference": "bram",
+  "physical_validation": false,
+  "imported_settings": {
+    "PCW_UIPARAM_DDR_ADV_ENABLE": "0",
+    "PCW_UIPARAM_DDR_AL": "0",
+    "PCW_UIPARAM_DDR_BANK_ADDR_COUNT": "3",
+    "PCW_UIPARAM_DDR_BL": "8",
+    "PCW_UIPARAM_DDR_BOARD_DELAY0": "0.25",
+    "PCW_UIPARAM_DDR_BOARD_DELAY1": "0.25",
+    "PCW_UIPARAM_DDR_BOARD_DELAY2": "0.25",
+    "PCW_UIPARAM_DDR_BOARD_DELAY3": "0.25",
+    "PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+    "PCW_UIPARAM_DDR_CL": "7",
+    "PCW_UIPARAM_DDR_CLOCK_0_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_CLOCK_0_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_CLOCK_1_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_CLOCK_1_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_CLOCK_2_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_CLOCK_2_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_CLOCK_3_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_CLOCK_3_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_CLOCK_STOP_EN": "0",
+    "PCW_UIPARAM_DDR_COL_ADDR_COUNT": "10",
+    "PCW_UIPARAM_DDR_CWL": "6",
+    "PCW_UIPARAM_DDR_DEVICE_CAPACITY": "4096 MBits",
+    "PCW_UIPARAM_DDR_DQS_0_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQS_0_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQS_1_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQS_1_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQS_2_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQS_2_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQS_3_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQS_3_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0": "0.0",
+    "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1": "0.0",
+    "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2": "0.0",
+    "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3": "0.0",
+    "PCW_UIPARAM_DDR_DQ_0_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQ_0_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQ_1_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQ_1_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQ_2_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQ_2_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DQ_3_LENGTH_MM": "0",
+    "PCW_UIPARAM_DDR_DQ_3_PROPOGATION_DELAY": "160",
+    "PCW_UIPARAM_DDR_DRAM_WIDTH": "16 Bits",
+    "PCW_UIPARAM_DDR_ECC": "Disabled",
+    "PCW_UIPARAM_DDR_ENABLE": "1",
+    "PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+    "PCW_UIPARAM_DDR_HIGH_TEMP": "Normal (0-85)",
+    "PCW_UIPARAM_DDR_MEMORY_TYPE": "DDR 3",
+    "PCW_UIPARAM_DDR_PARTNO": "MT41K256M16 RE-125",
+    "PCW_UIPARAM_DDR_ROW_ADDR_COUNT": "15",
+    "PCW_UIPARAM_DDR_SPEED_BIN": "DDR3_1066F",
+    "PCW_UIPARAM_DDR_TRAIN_DATA_EYE": "1",
+    "PCW_UIPARAM_DDR_TRAIN_READ_GATE": "1",
+    "PCW_UIPARAM_DDR_TRAIN_WRITE_LEVEL": "1",
+    "PCW_UIPARAM_DDR_T_FAW": "40.0",
+    "PCW_UIPARAM_DDR_T_RAS_MIN": "35.0",
+    "PCW_UIPARAM_DDR_T_RC": "48.75",
+    "PCW_UIPARAM_DDR_T_RCD": "7",
+    "PCW_UIPARAM_DDR_T_RP": "7",
+    "PCW_UIPARAM_DDR_USE_INTERNAL_VREF": "0",
+    "PCW_PACKAGE_NAME": "clg484",
+    "PCW_CRYSTAL_PERIPHERAL_FREQMHZ": "33.333333",
+    "PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+    "PCW_DDR_PERIPHERAL_CLKSRC": "DDR PLL",
+    "PCW_PRESET_BANK0_VOLTAGE": "LVCMOS 3.3V",
+    "PCW_PRESET_BANK1_VOLTAGE": "LVCMOS 3.3V",
+    "PCW_UART_PERIPHERAL_FREQMHZ": "100",
+    "PCW_UART0_BAUD_RATE": "115200"
+  },
+  "all_reference_differences": {
+    "Component_Name": {
+      "network": "ZYNQ_processing_system7_0_0",
+      "bram": "ZYNQ_CORE_processing_system7_0_0"
+    },
+    "PCW_ACT_ENET0_PERIPHERAL_FREQMHZ": {
+      "network": "125.000000",
+      "bram": "10.000000"
+    },
+    "PCW_ACT_ENET1_PERIPHERAL_FREQMHZ": {
+      "network": "125.000000",
+      "bram": "10.000000"
+    },
+    "PCW_ACT_FPGA0_PERIPHERAL_FREQMHZ": {
+      "network": "200.000000",
+      "bram": "50.000000"
+    },
+    "PCW_CLK0_FREQ": {
+      "network": "200000000",
+      "bram": "50000000"
+    },
+    "PCW_ENET0_ENET0_IO": {
+      "network": "EMIO",
+      "bram": "<Select>"
+    },
+    "PCW_ENET0_GRP_MDIO_ENABLE": {
+      "network": "1",
+      "bram": "0"
+    },
+    "PCW_ENET0_GRP_MDIO_IO": {
+      "network": "EMIO",
+      "bram": "<Select>"
+    },
+    "PCW_ENET0_PERIPHERAL_CLKSRC": {
+      "network": "External",
+      "bram": "IO PLL"
+    },
+    "PCW_ENET0_PERIPHERAL_ENABLE": {
+      "network": "1",
+      "bram": "0"
+    },
+    "PCW_ENET1_PERIPHERAL_CLKSRC": {
+      "network": "External",
+      "bram": "IO PLL"
+    },
+    "PCW_EN_EMIO_ENET0": {
+      "network": "1",
+      "bram": "0"
+    },
+    "PCW_EN_ENET0": {
+      "network": "1",
+      "bram": "0"
+    },
+    "PCW_FCLK0_PERIPHERAL_DIVISOR0": {
+      "network": "4",
+      "bram": "8"
+    },
+    "PCW_FCLK0_PERIPHERAL_DIVISOR1": {
+      "network": "2",
+      "bram": "4"
+    },
+    "PCW_FPGA0_PERIPHERAL_FREQMHZ": {
+      "network": "200",
+      "bram": "50"
+    },
+    "PCW_FTM_CTI_IN0": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_IN1": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_IN2": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_IN3": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_OUT0": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_OUT1": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_OUT2": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_FTM_CTI_OUT3": {
+      "network": "<Select>",
+      "bram": "DISABLED"
+    },
+    "PCW_MIO_50_DIRECTION": {
+      "network": "in",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_50_IOTYPE": {
+      "network": "LVCMOS 3.3V",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_50_PULLUP": {
+      "network": "enabled",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_50_SLEW": {
+      "network": "slow",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_51_DIRECTION": {
+      "network": "out",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_51_IOTYPE": {
+      "network": "LVCMOS 3.3V",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_51_PULLUP": {
+      "network": "enabled",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_51_SLEW": {
+      "network": "slow",
+      "bram": "<Select>"
+    },
+    "PCW_MIO_TREE_PERIPHERALS": {
+      "network": "unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unass\nigned#unassigned#unassigned#unassigned#unassigned#UART 0#UART 0#unassigned#unassigned",
+      "bram": "unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unass\nigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned"
+    },
+    "PCW_MIO_TREE_SIGNALS": {
+      "network": "unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unass\nigned#unassigned#unassigned#unassigned#unassigned#rx#tx#unassigned#unassigned",
+      "bram": "unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unass\nigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned#unassigned"
+    },
+    "PCW_M_AXI_GP0_FREQMHZ": {
+      "network": "10",
+      "bram": "50"
+    },
+    "PCW_PACKAGE_DDR_BOARD_DELAY0": {
+      "network": "0.080",
+      "bram": "0.063"
+    },
+    "PCW_PACKAGE_DDR_BOARD_DELAY1": {
+      "network": "0.063",
+      "bram": "0.062"
+    },
+    "PCW_PACKAGE_DDR_BOARD_DELAY2": {
+      "network": "0.057",
+      "bram": "0.065"
+    },
+    "PCW_PACKAGE_DDR_BOARD_DELAY3": {
+      "network": "0.068",
+      "bram": "0.083"
+    },
+    "PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_0": {
+      "network": "-0.047",
+      "bram": "-0.007"
+    },
+    "PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_1": {
+      "network": "-0.025",
+      "bram": "-0.010"
+    },
+    "PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_3": {
+      "network": "-0.017",
+      "bram": "-0.048"
+    },
+    "PCW_PACKAGE_NAME": {
+      "network": "clg400",
+      "bram": "clg484"
+    },
+    "PCW_UIPARAM_DDR_CLOCK_0_PACKAGE_LENGTH": {
+      "network": "54.563",
+      "bram": "61.0905"
+    },
+    "PCW_UIPARAM_DDR_CLOCK_1_PACKAGE_LENGTH": {
+      "network": "54.563",
+      "bram": "61.0905"
+    },
+    "PCW_UIPARAM_DDR_CLOCK_2_PACKAGE_LENGTH": {
+      "network": "54.563",
+      "bram": "61.0905"
+    },
+    "PCW_UIPARAM_DDR_CLOCK_3_PACKAGE_LENGTH": {
+      "network": "54.563",
+      "bram": "61.0905"
+    },
+    "PCW_UIPARAM_DDR_DQS_0_PACKAGE_LENGTH": {
+      "network": "101.239",
+      "bram": "68.4725"
+    },
+    "PCW_UIPARAM_DDR_DQS_1_PACKAGE_LENGTH": {
+      "network": "79.5025",
+      "bram": "71.086"
+    },
+    "PCW_UIPARAM_DDR_DQS_2_PACKAGE_LENGTH": {
+      "network": "60.536",
+      "bram": "66.794"
+    },
+    "PCW_UIPARAM_DDR_DQS_3_PACKAGE_LENGTH": {
+      "network": "71.7715",
+      "bram": "108.7385"
+    },
+    "PCW_UIPARAM_DDR_DQ_0_PACKAGE_LENGTH": {
+      "network": "104.5365",
+      "bram": "64.1705"
+    },
+    "PCW_UIPARAM_DDR_DQ_1_PACKAGE_LENGTH": {
+      "network": "70.676",
+      "bram": "63.686"
+    },
+    "PCW_UIPARAM_DDR_DQ_2_PACKAGE_LENGTH": {
+      "network": "59.1615",
+      "bram": "68.46"
+    },
+    "PCW_UIPARAM_DDR_DQ_3_PACKAGE_LENGTH": {
+      "network": "81.319",
+      "bram": "105.4895"
+    },
+    "PCW_USE_M_AXI_GP0": {
+      "network": "0",
+      "bram": "1"
+    }
+  },
+  "application_overrides": {
+    "UART": "UART0 EMIO 115200",
+    "FCLK0_MHz": 50,
+    "M_AXI_GP0": true,
+    "SD0": "MIO40..45, CD47; not demonstrated by references",
+    "Ethernet": "disabled in current gesture design"
+  }
+}

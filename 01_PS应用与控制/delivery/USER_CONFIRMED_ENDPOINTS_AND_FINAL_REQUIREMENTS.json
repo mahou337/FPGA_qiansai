@@ -1,0 +1,17 @@
+{
+  "recorded_on_pc_local": "2026-11-01T21:51:35.173596+08:00",
+  "source": "User latest explicit message",
+  "user_statement": "本次已验证，我要迁移对话，给我新的prompt，然后下一步根据我测得的伸直弯曲数据进行最后一版程序，包括我之前说的不要两帧，不要0.75，这种限定。",
+  "user_confirmed_open_closed_calibration": true,
+  "prior_record": "open_closed_observed_214705.json",
+  "prior_record_preserved": true,
+  "final_integrated_application_built": false,
+  "final_integrated_application_board_verified": false,
+  "requirements": [
+    "Use recorded per-servo open/closed endpoints; no repeated calibration",
+    "Single eligible complete recognition frame triggers target, including usable PENDING raw",
+    "Remove two-frame and 0.75-second gesture gates throughout actual active data path",
+    "Direct final endpoint targets; no incremental position stepping",
+    "Retain UART error handling and hardware fault protections; software feedback voltage ceiling remains7.5V"
+  ]
+}

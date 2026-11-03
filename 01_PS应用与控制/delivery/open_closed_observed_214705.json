@@ -1,0 +1,377 @@
+{
+  "schema": "amazinghand-observed-open-closed-pose-record-v1",
+  "recorded_on_pc_local": "2026-11-01T21:47:05.599954+08:00",
+  "closed_acquisition_time_unknown": true,
+  "open_source_file": "C:\\Users\\zhaohuzhen\\Documents\\fpga创新设计\\work\\hand_cal_direct20_savedopen_20261101\\delivery\\saved_open_reference.json",
+  "open_source_sha256": "ea428a146cd72fc89e26e8fda255ebc782c73b325f5ca64b184b1435d879f4e0",
+  "closed_source": "User pasted read_only.sh READ_ONLY_SNAPSHOT; not acquired by desktop agent",
+  "servo_pairs": {
+    "index": [
+      1,
+      2
+    ],
+    "middle": [
+      3,
+      4
+    ],
+    "ring": [
+      5,
+      6
+    ],
+    "thumb": [
+      7,
+      8
+    ]
+  },
+  "bit_order": [
+    "thumb",
+    "index",
+    "middle",
+    "ring"
+  ],
+  "fingers": {
+    "index": {
+      "open": {
+        "degrees": {
+          "1": 21.38671875,
+          "2": -31.34765625
+        },
+        "label": "open",
+        "loaded_position_measured": false,
+        "operator_confirmed_pose": true,
+        "raw": {
+          "1": 584,
+          "2": 404
+        },
+        "source": "SAVE_OPEN_ALL_three_stable_readonly_samples",
+        "torque_off_verified": true,
+        "voltage": {
+          "1": 7.4,
+          "2": 7.5
+        }
+      },
+      "closed_observation": {
+        "raw": {
+          "1": 343,
+          "2": 609
+        },
+        "degrees": {
+          "1": -49.21875,
+          "2": 28.7109375
+        },
+        "source": "user_supplied_read_only_snapshot",
+        "operator_reported_pose": "closed",
+        "torque_off_when_read": true,
+        "loaded_position_measured": false
+      },
+      "observed_delta_degrees": {
+        "1": -70.60546875,
+        "2": 60.05859375
+      }
+    },
+    "middle": {
+      "open": {
+        "degrees": {
+          "3": -27.24609375,
+          "4": 26.66015625
+        },
+        "label": "open",
+        "loaded_position_measured": false,
+        "operator_confirmed_pose": true,
+        "raw": {
+          "3": 418,
+          "4": 602
+        },
+        "source": "SAVE_OPEN_ALL_three_stable_readonly_samples",
+        "torque_off_verified": true,
+        "voltage": {
+          "3": 7.3,
+          "4": 7.2
+        }
+      },
+      "closed_observation": {
+        "raw": {
+          "3": 197,
+          "4": 846
+        },
+        "degrees": {
+          "3": -91.9921875,
+          "4": 98.14453125
+        },
+        "source": "user_supplied_read_only_snapshot",
+        "operator_reported_pose": "closed",
+        "torque_off_when_read": true,
+        "loaded_position_measured": false
+      },
+      "observed_delta_degrees": {
+        "3": -64.74609375,
+        "4": 71.484375
+      }
+    },
+    "ring": {
+      "open": {
+        "degrees": {
+          "5": -21.09375,
+          "6": 19.04296875
+        },
+        "label": "open",
+        "loaded_position_measured": false,
+        "operator_confirmed_pose": true,
+        "raw": {
+          "5": 439,
+          "6": 576
+        },
+        "source": "SAVE_OPEN_ALL_three_stable_readonly_samples",
+        "torque_off_verified": true,
+        "voltage": {
+          "5": 7.3,
+          "6": 7.1
+        }
+      },
+      "closed_observation": {
+        "raw": {
+          "5": 253,
+          "6": 826
+        },
+        "degrees": {
+          "5": -75.5859375,
+          "6": 92.28515625
+        },
+        "source": "user_supplied_read_only_snapshot",
+        "operator_reported_pose": "closed",
+        "torque_off_when_read": true,
+        "loaded_position_measured": false
+      },
+      "observed_delta_degrees": {
+        "5": -54.4921875,
+        "6": 73.2421875
+      }
+    },
+    "thumb": {
+      "open": {
+        "degrees": {
+          "7": -20.80078125,
+          "8": 20.80078125
+        },
+        "label": "open",
+        "loaded_position_measured": false,
+        "operator_confirmed_pose": true,
+        "raw": {
+          "7": 440,
+          "8": 582
+        },
+        "source": "SAVE_OPEN_ALL_three_stable_readonly_samples",
+        "torque_off_verified": true,
+        "voltage": {
+          "7": 7.0,
+          "8": 7.3
+        }
+      },
+      "closed_observation": {
+        "raw": {
+          "7": 107,
+          "8": 887
+        },
+        "degrees": {
+          "7": -118.359375,
+          "8": 110.15625
+        },
+        "source": "user_supplied_read_only_snapshot",
+        "operator_reported_pose": "closed",
+        "torque_off_when_read": true,
+        "loaded_position_measured": false
+      },
+      "observed_delta_degrees": {
+        "7": -97.55859375,
+        "8": 89.35546875
+      }
+    }
+  },
+  "closed_read_only_snapshot": {
+    "event": "READ_ONLY_SNAPSHOT",
+    "servo_writes": false,
+    "servos": {
+      "1": {
+        "angle": -49.21875,
+        "goal_raw": 343,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 343,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 7.2
+      },
+      "2": {
+        "angle": 28.7109375,
+        "goal_raw": 609,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 609,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 7.3
+      },
+      "3": {
+        "angle": -91.9921875,
+        "goal_raw": 197,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 197,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 7.1
+      },
+      "4": {
+        "angle": 98.14453125,
+        "goal_raw": 846,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 846,
+        "temperature": 23,
+        "torque": 0,
+        "voltage": 7.1
+      },
+      "5": {
+        "angle": -75.5859375,
+        "goal_raw": 253,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 253,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 7.2
+      },
+      "6": {
+        "angle": 92.28515625,
+        "goal_raw": 826,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 826,
+        "temperature": 23,
+        "torque": 0,
+        "voltage": 7.0
+      },
+      "7": {
+        "angle": -118.359375,
+        "goal_raw": 107,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 107,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 6.9
+      },
+      "8": {
+        "angle": 110.15625,
+        "goal_raw": 887,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 887,
+        "temperature": 22,
+        "torque": 0,
+        "voltage": 7.1
+      }
+    }
+  },
+  "old_controller_conflicts": [
+    {
+      "id": 1,
+      "check": "old_goal_envelope",
+      "raw": 343,
+      "old_limits_raw": [
+        392,
+        818
+      ]
+    },
+    {
+      "finger": "index",
+      "check": "old_pair_symmetry_guard",
+      "sum_degrees": -20.5078125,
+      "old_absolute_limit": 12
+    },
+    {
+      "id": 3,
+      "check": "old_goal_envelope",
+      "raw": 197,
+      "old_limits_raw": [
+        392,
+        818
+      ]
+    },
+    {
+      "id": 4,
+      "check": "old_goal_envelope",
+      "raw": 846,
+      "old_limits_raw": [
+        204,
+        630
+      ]
+    },
+    {
+      "id": 5,
+      "check": "old_goal_envelope",
+      "raw": 253,
+      "old_limits_raw": [
+        392,
+        818
+      ]
+    },
+    {
+      "id": 6,
+      "check": "old_goal_envelope",
+      "raw": 826,
+      "old_limits_raw": [
+        204,
+        630
+      ]
+    },
+    {
+      "finger": "ring",
+      "check": "old_pair_symmetry_guard",
+      "sum_degrees": 16.69921875,
+      "old_absolute_limit": 12
+    },
+    {
+      "id": 7,
+      "check": "old_goal_envelope",
+      "raw": 107,
+      "old_limits_raw": [
+        392,
+        818
+      ]
+    },
+    {
+      "id": 7,
+      "check": "old_plus_minus100_angle_guard",
+      "angle": -118.359375
+    },
+    {
+      "id": 8,
+      "check": "old_goal_envelope",
+      "raw": 887,
+      "old_limits_raw": [
+        204,
+        630
+      ]
+    },
+    {
+      "id": 8,
+      "check": "old_plus_minus100_angle_guard",
+      "angle": 110.15625
+    }
+  ],
+  "auto_apply": false,
+  "motion_commands_sent_by_agent": false,
+  "full_hand_follow_accepted": false,
+  "round_trip_verified": false,
+  "mechanical_working_endpoints_verified": false,
+  "note": "Preserved observations, NOT an installed controller calibration. Closed pose was read torque-off; mechanical safe range and powered tracking have not been verified. No software limits changed."
+}

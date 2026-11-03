@@ -1,0 +1,57 @@
+{
+  "version": "hdmi_linux_integration_20261102",
+  "date": "2026-11-02",
+  "implemented": [
+    "actual_final_hand_mask_side_path",
+    "default_off_max5Hz_single_slot_immutable_snapshot",
+    "display_failure_isolation",
+    "no_hand_launcher",
+    "existing_DT_node_override",
+    "compiled_matching_kernel_module",
+    "candidate_boot_and_fit",
+    "rollback_snapshot_and_instructions"
+  ],
+  "offline_passed": {
+    "handoff_hashes": 74,
+    "original_app_manifest_files": 51,
+    "new_app_manifest_files": 54,
+    "dt_existing_nodes_unchanged": true,
+    "boot_partition_bit_payload_verified": true,
+    "module_symbol_crc_matched": 32,
+    "fixed_input_results_unchanged": true
+  },
+  "target_userspace_emulated": {
+    "platform": "QEMU ARM user-mode, not physical board",
+    "python": "3.5.6",
+    "numpy": "1.14.5",
+    "opencv": "3.4.3",
+    "tests_run": 161,
+    "passed": 160,
+    "skipped": 1,
+    "skip": "QEMU high-baud termios unsupported; native pseudo-terminal test passed",
+    "syntax_files": 41
+  },
+  "native_tests": {
+    "run": 150,
+    "passed": 143,
+    "skipped": 7,
+    "reason": "Host missing NumPy/OpenCV; covered in ARM emulation"
+  },
+  "physical_board_passed": false,
+  "pending": [
+    "actual_board_uname_and_module_load",
+    "monitor_model_and_real_EDID",
+    "diagnostic_pattern_screen_validation",
+    "PS_mask_screen_validation",
+    "real_hand_mask_screen_validation",
+    "off_on_off_board_performance",
+    "camera_DMA_errors_under_display",
+    "physical_unplug_lock_loss_exit_black"
+  ],
+  "no_sd_written": true,
+  "no_servo_uart_or_motion": true,
+  "no_live_PL_reconfiguration": true,
+  "full_petalinux_rootfs_rebuild": false,
+  "boot_packaging": "existing verified kernel/FSBL/U-Boot reused with matched new bit and final DT; same external rootfs",
+  "vm_project": "/home/huzhen/hdmi_linux_integration_20261102/petalinux_project"
+}

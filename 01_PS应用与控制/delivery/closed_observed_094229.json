@@ -1,0 +1,170 @@
+{
+  "schema": "amazinghand-user-confirmed-closed-update-v1",
+  "recorded_on_pc_local": "2026-11-02T09:42:29.077504+08:00",
+  "acquisition_time_unknown": true,
+  "source": "User pasted READ_ONLY_SNAPSHOT; not sampled by desktop",
+  "preceding_console_line": "CALIBRATION_FILES_VERIFIED: 10",
+  "snapshot": {
+    "event": "READ_ONLY_SNAPSHOT",
+    "servo_writes": false,
+    "servos": {
+      "1": {
+        "angle": -89.35546875,
+        "goal_raw": 206,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 206,
+        "temperature": 18,
+        "torque": 0,
+        "voltage": 7.3
+      },
+      "2": {
+        "angle": 75.5859375,
+        "goal_raw": 769,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 769,
+        "temperature": 18,
+        "torque": 0,
+        "voltage": 7.3
+      },
+      "3": {
+        "angle": -123.33984375,
+        "goal_raw": 90,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 90,
+        "temperature": 18,
+        "torque": 0,
+        "voltage": 7.1
+      },
+      "4": {
+        "angle": 140.0390625,
+        "goal_raw": 989,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 989,
+        "temperature": 19,
+        "torque": 0,
+        "voltage": 7.1
+      },
+      "5": {
+        "angle": -112.20703125,
+        "goal_raw": 128,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 128,
+        "temperature": 19,
+        "torque": 0,
+        "voltage": 7.2
+      },
+      "6": {
+        "angle": 112.5,
+        "goal_raw": 895,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 895,
+        "temperature": 18,
+        "torque": 0,
+        "voltage": 7.0
+      },
+      "7": {
+        "angle": -72.65625,
+        "goal_raw": 263,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 263,
+        "temperature": 19,
+        "torque": 0,
+        "voltage": 6.9
+      },
+      "8": {
+        "angle": 83.49609375,
+        "goal_raw": 796,
+        "goal_speed_raw": 0,
+        "goal_time_raw": 0,
+        "load_raw": 0,
+        "raw": 796,
+        "temperature": 18,
+        "torque": 0,
+        "voltage": 7.2
+      }
+    }
+  },
+  "user_confirmed_new_closed_endpoints": true,
+  "open_endpoints_preserved": {
+    "1": 584,
+    "2": 404,
+    "3": 418,
+    "4": 602,
+    "5": 439,
+    "6": 576,
+    "7": 440,
+    "8": 582
+  },
+  "new_closed_raw": {
+    "1": 206,
+    "2": 769,
+    "3": 90,
+    "4": 989,
+    "5": 128,
+    "6": 895,
+    "7": 263,
+    "8": 796
+  },
+  "previous_closed_raw": {
+    "1": 343,
+    "2": 609,
+    "3": 197,
+    "4": 846,
+    "5": 253,
+    "6": 826,
+    "7": 107,
+    "8": 887
+  },
+  "servo_pairs": {
+    "index": [
+      1,
+      2
+    ],
+    "middle": [
+      3,
+      4
+    ],
+    "ring": [
+      5,
+      6
+    ],
+    "thumb": [
+      7,
+      8
+    ]
+  },
+  "recognition_bit_order": [
+    "thumb",
+    "index",
+    "middle",
+    "ring"
+  ],
+  "bit_meaning": {
+    "1": "straight",
+    "0": "bent"
+  },
+  "checks": {
+    "all_eight_present": true,
+    "raw_angle_consistent": true,
+    "all_torque_off": true,
+    "relative_direction_consistent_with_existing_open": true
+  },
+  "physical_loaded_motion_verified": false,
+  "new_endpoints_applied_to_application": false,
+  "new_endpoints_deployed_to_sd": false,
+  "previous_records_preserved": true
+}

@@ -1,0 +1,11 @@
+{
+  "skin_detection.py": "39bc84c8eca92a9266cb373a7b969af574d498f6f2f6951eb09671ff627ff6e2",
+  "gesture_classifier.py": "8e611cd79022060065079117cf5f2d4b6bab8fbfc6d34cc3449d7ed665de268f",
+  "finger_detection.py": "6410908b0ff16312610bb5481df21ad53b700977dbdc45047ed345ce8b44c71e",
+  "palm_motion.py": "dd4e33fff90a1fd74cc7a46f4090a485ca96847165ddc6e0b79f784e9a2e870f",
+  "finger_root_match.py": "7461e301e2353ba4cd7dade838e45515346851c4b91069fe7db2282ab1c16142",
+  "palm_geometry.py": "1279b7978ecc441b7ac4629ea5195c900fadb1e073bda82868b70536a47e3aee",
+  "background_subtraction.py": "c8d5b5c52ab12b0187e06ffc5df1f2ae605fac2cfa1aaa36893e8d3e6cbee3be",
+  "connected_regions.py": "2181d88dff387bd4e2d5a880dee4baa7e9ea03d229f37652b044857f69ed8ada",
+  "config.json": "19a10ed5472ed97a31273f9633548053144ffe022d209895734442b7bfc353b4"
+}

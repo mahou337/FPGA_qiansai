@@ -1,0 +1,60 @@
+{
+  "schema": "active-hand-endpoints-v1",
+  "source_record": "closed_observed_094229.json",
+  "source_sha256": "94566794b2a193431dd4eddd966f7bb541324ed32842597e365b657e85cb8bb8",
+  "open_raw": {
+    "1": 584,
+    "2": 404,
+    "3": 418,
+    "4": 602,
+    "5": 439,
+    "6": 576,
+    "7": 508,
+    "8": 514
+  },
+  "closed_raw": {
+    "1": 206,
+    "2": 769,
+    "3": 90,
+    "4": 989,
+    "5": 128,
+    "6": 895,
+    "7": 195,
+    "8": 864
+  },
+  "user_confirmed_new_closed_endpoints": true,
+  "source_all_torque_off": true,
+  "physical_loaded_motion_verified": false,
+  "bit_order": [
+    "thumb",
+    "index",
+    "middle",
+    "ring"
+  ],
+  "bit_meaning": {
+    "1": "straight",
+    "0": "bent"
+  },
+  "feedback_margin_raw": 15,
+  "arrival_tolerance_raw": 15,
+  "speed_radians_parameter": 5.0,
+  "voltage_window": [
+    4.5,
+    7.6
+  ],
+  "historical_records_preserved": true,
+  "derived_adjustments_raw": {
+    "7": -68,
+    "8": 68
+  },
+  "adjustment_record": "THUMB_INCREMENT_REQUEST.json",
+  "adjustment_sha256": "7ce4b8efef3a587504ea0a2688a107b3ece01e0ebd7759c9f04a821308256ea1",
+  "path_margin_raw": 30,
+  "thumb_endpoints_are_requested_offsets_not_measurements": true,
+  "open_adjustment_record": "THUMB_OPEN_INCREMENT_REQUEST.json",
+  "open_adjustment_sha256": "814e296a94bc0dc68479791b79397f9204495bc4dd2fb25efc997fafeaeeba3f",
+  "derived_open_adjustments_raw": {
+    "7": 68,
+    "8": -68
+  }
+}

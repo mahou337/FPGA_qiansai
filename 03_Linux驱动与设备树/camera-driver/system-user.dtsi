@@ -1,0 +1,21 @@
+/* Integrated with the ACTUAL generated 2019.1 system-top.dts. */
+/include/ "system-conf.dtsi"
+/ {
+ chosen {
+  bootargs = "console=ttyPS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait";
+  stdout-path = "serial0:115200n8";
+ };
+};
+&amba_pl { dma-ranges; };
+/* The custom driver is the ONLY owner of both memory windows. */
+&dma { status = "disabled"; };
+&capture {
+ compatible = "linqiao,gesture-vga-1.0";
+ reg = <0x40000000 0x40000>, <0x40400000 0x10000>;
+ reg-names = "capture", "dma";
+ clocks = <&clkc 15>;
+ clock-names = "fclk0";
+ assigned-clocks = <&clkc 15>;
+ assigned-clock-rates = <50000000>;
+ status = "okay";
+};

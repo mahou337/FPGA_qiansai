@@ -1,0 +1,26 @@
+{
+  "schema": "user-requested-thumb-increment-v1",
+  "recorded_on_pc_local": "2026-11-02T10:00:13.422343+08:00",
+  "source": "User requested wider path margin and 20 degrees more thumb bending",
+  "base_release": "hand_final_closed2_20261102",
+  "base_observed_closed_raw": {
+    "7": 263,
+    "8": 796
+  },
+  "requested_additional_bend_degrees_per_servo": 20,
+  "rounding": "round(20*1024/300)=68 raw",
+  "delta_raw": {
+    "7": -68,
+    "8": 68
+  },
+  "result_closed_raw": {
+    "7": 195,
+    "8": 864
+  },
+  "actual_quantized_increment_degrees": 19.921875,
+  "derived_not_newly_measured": true,
+  "physical_loaded_motion_verified": false,
+  "path_margin_raw": 30,
+  "global_feedback_margin_raw": 15,
+  "arrival_tolerance_raw": 15
+}
